@@ -1,6 +1,6 @@
 package linkedList;
 
-public class CircluarLinkStruct {
+public class DoublyLinkStruct {
 	Node head; // available to entire class
 
 	class Node {
@@ -14,7 +14,7 @@ public class CircluarLinkStruct {
 		}
 	}
 
-	public CircluarLinkStruct() {
+	public DoublyLinkStruct() {
 		head = null;
 	}
 
@@ -74,7 +74,7 @@ public class CircluarLinkStruct {
 	}
 
 	public static void main(String[] args) {
-		CircluarLinkStruct l = new CircluarLinkStruct();
+		DoublyLinkStruct l = new DoublyLinkStruct();
 		l.front(1);
 		l.front(2);
 		l.front(3);
